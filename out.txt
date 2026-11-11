@@ -1,0 +1,52 @@
+$ git merge featurebranch -m "prgm not found!!"
+git merge featurebranch -m "prgm not foundgit merge featurebranch -m"
+Updating c05d900..4ef6c1b
+Fast-forward (no commit created; -m option ignored)
+ prgm.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 prgm.txt
+
+AIML@DESKTOP-E4F54C3 MINGW64 ~ (master)
+$ ls
+ -1.14-windows.xml    Contacts/               'Local Settings'@                                                                               Pictures/       Untitled.ipynb   'VirtualBox VMs'/   file1.txt         p55.txt         ramya
+'1bi24ai404-dl&rl'/   Cookies@                 Music/                                                                                         PrintHood@      Untitled1.ipynb   a.txt              file2.txt         pqr.txt         sodium/
+ 1bi24ai404-ml/       Desktop/                'My Documents'@                                                                                 README.md       Untitled2.ipynb   aarish/            gensim-data/      prgm.txt        test/
+ 2025                 Documents/               NTUSER.DAT                                                                                     Recent@         Untitled3.ipynb   abc.txt            git/              priya.txt       test.txt
+ 2026/                Downloads/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/   Untitled4.ipynb   abcd.txt           git-repository/   program10.txt   test1.txt
+ 3.txt                Enjoysport.csv           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/       Untitled5.ipynb   anaconda3/         ntuser.dat.LOG1   program11.txt   word_embeddings.txt
+'3D Objects'/         Favorites/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@         Untitled6.ipynb   ankur5/            ntuser.dat.LOG2   program9.txt    xyz.txt
+ AppData/             IntelGraphicsProfiles/   NetHood@                                                                                      'Start Menu'@    Untitled7.ipynb   dhanu/             ntuser.ini        qw
+'Application Data'@   Links/                   OneDrive/                                                                                      Templates@      Videos/           file/              p5.save           qwe.txt
+
+AIML@DESKTOP-E4F54C3 MINGW64 ~ (master)
+$ git branch --merged
+  featurebranch
+* master
+
+AIML@DESKTOP-E4F54C3 MINGW64 ~ (master)
+$ git branch -a
+  aiml
+  branch
+  drf
+  fb1
+  feature-branch
+  feature-branch1
+  feature_branch
+  featurebranch
+  hagemaru
+  main
+* master
+  new-branch
+  prog6
+  prog8
+  sourcebranch
+  target-branch
+  target-branch1
+  target_branch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+AIML@DESKTOP-E4F54C3 MINGW64 ~ (master)
+$ git branch --merged
+  featurebranch
+* master
